@@ -110,7 +110,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board).class == String
+  if won?(board).class == array
     return board[won?(board)[0]]
   else
     return nil
